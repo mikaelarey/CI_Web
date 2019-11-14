@@ -60,7 +60,14 @@
     transition:0.5s;
     background:rgb(69,235,210); 
 }
+<<<<<<< HEAD
 /* .divider{
     display:block;
     margin:2rem;
 } */
+=======
+.divider{
+    display:block;
+    margin:2rem;
+}
+>>>>>>> 87fbf6364c31d7d9f656f0f340aa80f8e7362dbb
