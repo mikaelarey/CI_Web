@@ -8,7 +8,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Traveler &mdash; Free Website Template, Free HTML5 Template by FreeHTML5.co</title>
+	<title>Shoping Clam</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -56,6 +56,9 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!-- custom style -->
+	<link rel="stylesheet" href="css/custom-style.css">
+	<link rel="icon" href="images/favicon.ico">
 	</head>
 	<body>
 		
@@ -65,27 +68,51 @@
 
 	
 	<!-- <div class="page-inner"> -->
-	<nav class="gtco-nav" role="navigation">
+	<nav class="gtco-nav" role="navigation" style="/*position:fixed;*/background-color:rgb(4,46,61);">
 		<div class="gtco-container">
 			
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="index.html">Traveler <em>.</em></a></div>
+					<div id="gtco-logo">
+						<img src="images/logo.jpg" style="position:absolute;transform:translateY(-25%);width:6rem;border-radius:100%;">
+						<a href="index.html" style="margin-left:6rem;">SHOPPING CLAM</a>
+					</div>
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
-						<li><a href="destination.html">Destination</a></li>
+						<li class="active"><a href="#">Home</a></li>
 						<li class="has-dropdown">
-							<a href="#">Travel</a>
+							<a href="#">Shop</a>
 							<ul class="dropdown">
-								<li><a href="#">Europe</a></li>
-								<li><a href="#">Asia</a></li>
-								<li><a href="#">America</a></li>
-								<li><a href="#">Canada</a></li>
+								<!-- <li><a href="#">Metal Working</a></li>
+								<li><a href="#">Wood Working</a></li>
+								<li><a href="#">Masonry Works</a></li>
+								<li><a href="#">12v Cordless Tools</a></li>
+								<li><a href="#">18v Cordless Tools</a></li>
+								<li><a href="#">Welding and Cutting</a></li>
+								<li><a href="#">Painting and Finishing Tools</a></li>
+								<li><a href="#">Safety and PPE</a></li>
+								<li><a href="#">Fasa</a></li>
+								<li><a href="#">Plumbing Tools</a></li>
+								<li><a href="#">Toptul</a></li> -->
+								<li><a href="#">Metal</a></li>
+								<li><a href="#">Wood</a></li>
+								<li><a href="#">Masonry</a></li>
+								<li><a href="#">Cordless Tools</a></li>
+								<li><a href="#">Welding</a></li>
+								<li><a href="#">Cutting</a></li>
+								<li><a href="#">Painting</a></li>
+								<li><a href="#">Finishing Tools</a></li>
+								<li><a href="#">Safety</a></li>
+								<li><a href="#">Fasa</a></li>
+								<li><a href="#">Plumbing</a></li>
+								<li><a href="#">Toptul</a></li>
 							</ul>
 						</li>
-						<li><a href="pricing.html">Pricing</a></li>
-						<li class="active"><a href="contact.html">Contact</a></li>
+						<li><a href="#">Cart</a></li>
+						<li><a href="#">Checkout</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
 					</ul>	
 				</div>
 			</div>
@@ -93,7 +120,7 @@
 		</div>
 	</nav>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/img_bg_3.jpg)">
+	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url('https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/p960x960/75580213_148988319819397_5256373936840507392_o.jpg?_nc_cat=109&_nc_oc=AQmSGBAtzHarKld63EQIyWirEOIYEqilMandC2TYCb7MnLpa5ItvAlphSTwu41WHW34&_nc_ht=scontent.fmnl17-2.fna&oh=669d6af16fc711a5ed936d2a82077a6e&oe=5E54984E')">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -186,26 +213,26 @@
 
 				<div class="col-md-2 col-md-push-1">
 					<div class="gtco-widget">
-						<h3>Destination</h3>
+						<h3>Pages</h3>
 						<ul class="gtco-footer-links">
-							<li><a href="#">Europe</a></li>
-							<li><a href="#">Australia</a></li>
-							<li><a href="#">Asia</a></li>
-							<li><a href="#">Canada</a></li>
-							<li><a href="#">Dubai</a></li>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Shop</a></li>
+							<li><a href="#">Cart</a></li>
+							<li><a href="#">Checkout</a></li>
+							<li><a href="#">Contact</a></li>
 						</ul>
 					</div>
 				</div>
 
 				<div class="col-md-2 col-md-push-1">
 					<div class="gtco-widget">
-						<h3>Hotels</h3>
+						<h3>Categories</h3>
 						<ul class="gtco-footer-links">
-							<li><a href="#">Luxe Hotel</a></li>
-							<li><a href="#">Italy 5 Star hotel</a></li>
-							<li><a href="#">Dubai Hotel</a></li>
-							<li><a href="#">Deluxe Hotel</a></li>
-							<li><a href="#">BoraBora Hotel</a></li>
+							<li><a href="#">Metal</a></li>
+							<li><a href="#">Woods</a></li>
+							<li><a href="#">Masonry</a></li>
+							<li><a href="#">Welding</a></li>
+							<li><a href="#">Cutting</a></li>
 						</ul>
 					</div>
 				</div>
@@ -226,8 +253,8 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="https://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2019 Shopping Clam. All Rights Reserved.</small> 
+						<small class="block">Powered by <a href="#" target="_blank">SKI Solutions Inc.</a></small>
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right">
